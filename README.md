@@ -31,17 +31,17 @@ The goal is to teach the core concepts behind traditional software key systems i
 
 # Example Key
 
-```text
+
 A7QK-9PLX-W2RM-TJ8N-4K
 Project Structure
-text
+
 KeyGenerator.java
 KeyValidator.java
 README.md
 How It Works
 The system follows a simplified version of classic offline activation logic:
 
-text
+
 Random Characters
         ↓
 CRC32 Calculation
@@ -105,18 +105,18 @@ bash
 java KeyValidator
 Example:
 
-text
+
 Enter key:
 A7QK-9PLX-W2RM-TJ8N-4K
 
 VALID KEY
 Modified key example:
 
-text
+
 A7QK-9PLX-W2RM-TJ8N-5K
 Result:
 
-text
+
 INVALID KEY
 Important Note
 This project is educational only.
